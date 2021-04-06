@@ -1,4 +1,25 @@
 .footer {
   height: 100px;
-  background-color: blueviolet;
+  background-color: yellow;
+
+  .class {
+    color: red;
+  }
+
+  &__desc {
+    color: green;
+    font-size: 50px;
+    
+    &:hover {
+      color: fuchsia;
+    }
+  }
+
+  &__desc--bold {
+    font-weight: bold;
+  } 
+
+  &:hover {
+    background-color: blue;
+  }
 }
